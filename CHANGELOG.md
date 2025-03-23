@@ -2,6 +2,44 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.24.0](https://github.com/binbashar/terraform-aws-backup/compare/v0.23.8...v0.24.0) (2025-03-23)
+
+
+### Features
+
+* Add aws_iam_policy tags ([32a0210](https://github.com/binbashar/terraform-aws-backup/commit/32a0210be88bb57dae2036f5d30b7065069131e8))
+* add backup report feature ([3881e72](https://github.com/binbashar/terraform-aws-backup/commit/3881e728e2cd210a6ef0bbde3afd55349f030aa5))
+* add backup report feature ([5ad9085](https://github.com/binbashar/terraform-aws-backup/commit/5ad9085e220514698d49437a27abea199b45e396))
+* Add missing README file ([5912a19](https://github.com/binbashar/terraform-aws-backup/commit/5912a19562d2e38ed1fcaf90afd5bc3d89385a39))
+* Add missing README file ([01ad376](https://github.com/binbashar/terraform-aws-backup/commit/01ad37653e27e536b1d0ba534256fee13c5f4794))
+* Allow S3 backup ([7fdfcb8](https://github.com/binbashar/terraform-aws-backup/commit/7fdfcb8c9dfc378ff09de388c3796d9b9f74778d))
+* Allow S3 backup ([82558bf](https://github.com/binbashar/terraform-aws-backup/commit/82558bfffbf3acb43c2c8a5dce45d742fe6be4f6))
+* Allow S3 backup ([67810b4](https://github.com/binbashar/terraform-aws-backup/commit/67810b431c7f7d6fcebd5ae0536b56888ecd5c58))
+* Enhance AWS Backup Audit Framework and module examples ([90529ad](https://github.com/binbashar/terraform-aws-backup/commit/90529adcd079ce568619706db4a8753a7a229f13))
+* Enhance module with comprehensive AWS Backup features ([834b88a](https://github.com/binbashar/terraform-aws-backup/commit/834b88a277b923162f8befad9c5bb64116b339b9))
+* only create aws_backup_plan if rules are provided ([e16aa7a](https://github.com/binbashar/terraform-aws-backup/commit/e16aa7a610e117a2eea5d6ff324c383612d09f0e))
+* only create aws_backup_plan if rules provided ([8af9165](https://github.com/binbashar/terraform-aws-backup/commit/8af9165270d2fe6af46cc3d73dbacdaa8a66ca1e))
+
+
+### Bug Fixes
+
+* 48 ([3825ecd](https://github.com/binbashar/terraform-aws-backup/commit/3825ecde20272caf62eb1faee89d0ccc8ace2b0f))
+* Add release automation configuration and fix variable default ([f9345af](https://github.com/binbashar/terraform-aws-backup/commit/f9345afbe20baee1b9c699c2e148481a6221d10e))
+* Enhance Windows VSS backup validation and add example configuration ([f2afcfd](https://github.com/binbashar/terraform-aws-backup/commit/f2afcfd559da235b1c726ae0394f6f4398e9abdb))
+* Enhance Windows VSS backup validation and add example configuration ([5ff6228](https://github.com/binbashar/terraform-aws-backup/commit/5ff6228addc28b2b9227cd9dbdb6c6ad806ef969))
+* Improve validation and configuration for AWS Backup vault ([81d9bd2](https://github.com/binbashar/terraform-aws-backup/commit/81d9bd20fe963531d0492e47651cc926cfd25daa))
+* Improve validation and configuration for AWS Backup vault ([28ac0fa](https://github.com/binbashar/terraform-aws-backup/commit/28ac0faf5c873a4648b8f98927a905acd128007a))
+* min retention days and max retention days required ([6826296](https://github.com/binbashar/terraform-aws-backup/commit/6826296bb394c307db5385bc11ca59837faad22d))
+* Remove Update local AWS provider configuration ([67553f8](https://github.com/binbashar/terraform-aws-backup/commit/67553f84c8639addd4d38b88519d146232f34c68))
+* retention days validations ([4a21a68](https://github.com/binbashar/terraform-aws-backup/commit/4a21a681f2eeae92f1318b59f0739c2ae61fdf36))
+* simplify recovery point tags assignment ([c64d98f](https://github.com/binbashar/terraform-aws-backup/commit/c64d98fcc8813814521acc0225a899ccd5852810))
+* simplify recovery point tags assignment in AWS Backup plan (thanks @Edward-Ireson) ([94f4581](https://github.com/binbashar/terraform-aws-backup/commit/94f458103d504f9f67c89ae35f920da9e1b16a87))
+* Update precondition logic for vault locking in main.tf ([38c50a5](https://github.com/binbashar/terraform-aws-backup/commit/38c50a57823a38820a6b74b7d4f0ed554e27dad7))
+* Update README icon ([614d728](https://github.com/binbashar/terraform-aws-backup/commit/614d728cee21022309c17537615541e5dfce1aab))
+* Update README icon ([1ccacb3](https://github.com/binbashar/terraform-aws-backup/commit/1ccacb390d62d5a30a9d83f3075deb4f34da0927))
+* **version:** fix aws provider constrain ([abec6da](https://github.com/binbashar/terraform-aws-backup/commit/abec6da861cabb75d6415a5578679c99c7d730c6))
+* **version:** fix aws provider constrain ([7d45d62](https://github.com/binbashar/terraform-aws-backup/commit/7d45d62d1e82c6a0187d2c313949309be9dc1b8d))
+
 ## [0.23.8](https://github.com/lgallard/terraform-aws-backup/compare/0.23.7...v0.23.8) (2025-03-20)
 
 
