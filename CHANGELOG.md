@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 
 
+## [1.5.0](https://github.com/binbashar/terraform-aws-backup/compare/1.4.1...1.5.0) (2025-11-23)
+
+
+### Features
+
+* add archive tier and timezone support to backup plans ([#308](https://github.com/binbashar/terraform-aws-backup/issues/308)) ([e2ee8d4](https://github.com/binbashar/terraform-aws-backup/commit/e2ee8d443d99f5d063037b4cc74bc00ba6bd4d40))
+
 ## [1.4.1](https://github.com/lgallard/terraform-aws-backup/compare/1.4.0...1.4.1) (2025-11-19)
 
 
