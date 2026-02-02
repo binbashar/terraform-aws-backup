@@ -56,6 +56,29 @@ variable "vault_type" {
 }
 
 #
+# AWS Backup vault policy configuration
+#
+variable "vault_policy" {
+  description = "IAM policy document for the backup vault access control. Enables cross-account backup access, resource-specific permissions, and compliance controls. Must be valid JSON. Leave null to disable vault policy."
+  type        = string
+  default     = null
+
+  validation {
+    condition     = var.vault_policy == null ? true : can(jsondecode(var.vault_policy))
+    error_message = "The vault_policy must be a valid JSON policy document."
+  }
+
+  validation {
+    condition = var.vault_policy == null ? true : (
+      can(jsondecode(var.vault_policy)) ?
+      can(lookup(jsondecode(var.vault_policy), "Version", null)) : false
+    )
+    error_message = "The vault_policy must include a Version field (typically '2012-10-17')."
+  }
+
+}
+
+#
 # AWS Backup vault lock configuration
 #
 variable "locked" {
